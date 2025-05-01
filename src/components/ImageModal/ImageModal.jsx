@@ -1,7 +1,7 @@
 import Modal from "react-modal";
 
 const customStyles = {
-  overlay: { backgroundColor: "#323232" },
+  overlay: { backgroundColor: "#323232", zIndex: "998" },
   content: {
     top: "50%",
     left: "50%",
@@ -9,6 +9,7 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
+    zIndex: "999",
   },
 };
 
